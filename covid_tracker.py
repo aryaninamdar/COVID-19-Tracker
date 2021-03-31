@@ -50,7 +50,7 @@ graph_gui = tk.Label(canvas, font=('Calibri', 30))
 graph_gui.place(x=15, y=75)
 
 # ------ GET DATA FROM API ------
-covid_api = 'https://corona.lmao.ninja/v2/historical?lastdays=all' # THIS IS THE GOOD API WITH ALL DATES. DO NOT CHANGE. DOOOO NOOOOOTTTTTTT CHANNNNGGGGEEEEEEE
+covid_api = 'https://corona.lmao.ninja/v2/historical?lastdays=all'
 data = requests.get(covid_api)
 data = data.json()
 
